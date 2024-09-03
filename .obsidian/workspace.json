@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Lang Lang/Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "e5a22cb816985ee1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Lang Lang/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Lang Lang/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Lang Lang/Rust.md"
               }
             }
           },
@@ -166,9 +167,10 @@
   "active": "44d5551a7345d12c",
   "lastOpenFiles": [
     "README.md",
+    "Lang Lang/Rust.md",
+    "Lang Lang",
     "Obsidian-Notes/README.md",
     "Obsidian-Notes",
-    "Untitled.md",
     "Lang Lang",
     "Lang Lang.md",
     "Untitled/Untitled",
