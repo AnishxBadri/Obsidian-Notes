@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Notes/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Notes/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Notes/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Notes/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -163,8 +163,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3d8e5b3d87fed42",
+  "active": "44d5551a7345d12c",
   "lastOpenFiles": [
+    "README.md",
     "Obsidian-Notes/README.md",
     "Obsidian-Notes",
     "Untitled.md",
