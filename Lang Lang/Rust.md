@@ -7,15 +7,10 @@
 - In Rust, variables are immutable by default. We add mut before the variable to make it mutable. But constants are still immutable.
 - In the line let mut guess = String::new(); The :: syntax in the ::new line indicates that new is an associated function of the String type. An associated function is a function that’s implemented on a type, in this case String. Therefore the above line has created a mutable variable that is currently bound to a new empty instance of a String.
 - A match expression is made up of arms. An arm consists of a pattern to match against, and the code that should be run if the value given to match fits that arm’s pattern. Rust takes the value given to match and looks through each arm’s pattern in turn.
-    
 - Constants are valid for the entire time a program runs within the scope in which they were declared.
-    
 - Constants can only be declared in any scope, including the global scope.
-    
 - Constants may be set only to a constant expression, not the result of a value that could only be computed at runtime.
-    
 - Shadowing:
-    
 
 ```rust
 fn main() {       
@@ -30,9 +25,7 @@ fn main() {     
 ```
 
 - X is first bound to 5, then new x is created and is bound to value of 6. Then in inner scope it is shadowed  and prints 12 and then outside the scope it is back to 6.
-    
 - Difference between shadowing and mut is that since we are effectively creating a new variable when using let, we change the type of the value but reuse the same name.
-    
 
 ```rust
 let spaces = "   ";   
@@ -45,13 +38,8 @@ let mut spaces = "   "; 
 spaces = spaces.len();
 ```
 - Every value in Rust is of a certain data type. Rust is a statically typed language. 
-    
 - A scalar type represents a single value. Rust has four primary scalar types: integers, floating-point numbers, Booleans and characters.
-    
-
 - Integers are numbers without a fractional component. Integers have various variants like u32, u8, i8, i32, etc. Rust by default uses i32.
-    
-
 - Rust includes checks for integer overflow in debug mode that causes your program to panic at runtime if this behavior. Panicking in rust is when a program exits with an error. But in release mode it performs two’s complement wrapping, basically wraps around.
 - Floating-point types:
 - Rust also has two primitive types for floating-point numbers which are numbers with decimal points. 
