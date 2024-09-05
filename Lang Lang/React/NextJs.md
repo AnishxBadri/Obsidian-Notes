@@ -28,4 +28,4 @@ Routing:
 
 Server Components:
 
-- React Server COmponents allow you to write UI that can be rendered and optionally cached on the server.
+- React Server Components allow you to write UI that can be rendered and optionally cached on the server.
