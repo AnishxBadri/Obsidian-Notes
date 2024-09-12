@@ -1,0 +1,12 @@
+- It uses data and not views as the source of truth
+	- When dragging something, it is not the DOM node that is dragged, it is an item of a certain type that is dragged.
+- An item is a plain JavaScript object describing what's being dragged.
+- This helps with keeping components decoupled and unaware of each other.
+	- Type is a string or symbol uniquely identifying whole class of items in your application
+	- Types help with specifying which drag soruces and rop targets are compatible
+- `Montiors` expose state of components via a few tiny wrappers over the internal state storage.
+	- They let you update the props of your components in response to drag and drop state changes.
+- For each component that needs to track the drag and drop state you can define a `collecting` function that retrieves the relevant bits of it from the monitors.
+- `Conenctors` let you assign one of the predefined roles to the DOM nodes in your `render` function. 
+- Whenever you wan t to make a component draggable, wrap that component into a drag source declaration. Every drag source is registered for a certain type and has to implement a method producing an item from the component's props.
+- 

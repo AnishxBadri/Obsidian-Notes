@@ -1,0 +1,13 @@
+- Use `EXPLAIN ANALYZE SQL` command to help figure out what query is actually doing and find way s to improve.
+- If you see `FULL SCAN`, then it is bad for performance.
+- Use indexing to improve row scan commands. When the databases are executing a query, it uses the relevant index like a pointer, enabling it to read only the relevant rows of data to find the information you are searching, instead of having to read the entire table.
+- Don't query more than you need.
+- Avoid `SELECT DISTINCT`, use `WHERE` instead.
+- `INNER JOIN` Wherever possible. OUTER JOINS are the least efficient.
+- KEEP subqueries small
+- Use `UNION ALL` vs `UNION` wherever possible.
+- Store the smallest amount of information you can while still meeting your needs.
+- A good index will:
+- Filter the data efficiently.
+- Eliminate the need to sort the data.
+- Answer your query with data found in the index.

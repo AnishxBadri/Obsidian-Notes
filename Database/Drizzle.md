@@ -1,0 +1,14 @@
+
+- CLI companion for automatic SQL migrations generation and rapid prototyping.    
+- Typesafe ORM. Just declare a Drizzle ORM typescript schema and generate an SQL migration from it.
+- Migrations:
+- They are a controlled sets of changes developed to modify the structure of the objects within a relational database. Help transition database schemas from their current state to a new desired state. They manage incremental and reversible changes to data structures in a programmatic way.
+- Changing between migration tools can be difficult without a clean break between the previous and current generation of migration files.
+- Two types of schema transformation strategies: state based migrations and change based migrations.
+- State based migrations software creates artifacts that describe how to recreate the desired database state from scratch. Migrations involve comparing the generated files against the current state of the database.
+- Change based migrations rather than discovering the differences between the desired database state and the current one, this approach builds off a known database state to define the operations to bring it into the new state. Since the previous state is so important to the system often uses a database within the database system itself to track which migration files have been applied.
+- Migration history is stored .sql files in the migrations folder.
+- Each SQL migration file contains statements which you apply to the database through the Drizzle ORM migration package.
+- Whenever you apply changes to the schema you just rerun drizzle-kit generate and it will generate SQL migration for you to completely automatically.
+- Drizzle kit lets you alter database schema and rapidly move forward with a db push command.
+- Drizzle studio is a new way to explore SQL databases on Drizzle projects. Grabs config files, connects to database and lets you browse, add, delete and everything.

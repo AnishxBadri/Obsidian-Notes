@@ -19,6 +19,8 @@ React Server Components:
 
 - Before RSC as seen above, there is a back and forth in SSR. The Render Shell is first 
 - rendered in server, then hydrated in client, then back to server for database query and then back to client to render. 
+- Hydration is like watering the dry HTML with the water of interactivity and event handlers.
+	- The server sends the client HTML along with a link to the JS to download. The JS gets downloaded and then hydrates the page taking it from a plain page to one with interactivity
     
 - Server components never re-render. Once the server generates the UI. The rendered value is sent to the client and locked in place. As far as React is concerned, this output is immutable and will never change. So we can’t use things like useState or useEffect
     
@@ -211,19 +213,11 @@ Updating Arrays in State:
   
 
 Prop Drilling:
-
 - Refers to the process of passing down props through multiple layers of components.
-    
 - As components get nested deeper, managing the flow of props becomes challenging.
-    
 - This also causes tight coupling of elements.
-    
 - Performance overhead is also introduced.
-    
 - Solution would be to use the State Management Libraries , HOCs or the Context API.
-    
-
-  
 
 React Contexts:
 
