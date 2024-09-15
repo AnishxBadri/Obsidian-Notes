@@ -4,35 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "b8885ea182d98dfa",
+        "id": "ebd4aabac8487e3b",
         "type": "tabs",
         "children": [
           {
-            "id": "f919de0757bc5a37",
+            "id": "fadc644f58d808d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lang Lang/React/ReactJs.md",
+                "file": "StartupReviews.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4476a2d676530a9c",
+            "id": "35bd1a9e5631a90e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NextJs.md",
+                "file": "Parrot/Custom_model.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea88f0588719df22",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Parrot/Parrot-Canvas.canvas",
+                "viewState": {
+                  "x": 2338,
+                  "y": 433,
+                  "zoom": -2.431737193145404
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NextJs.md",
+                "file": "Parrot/Parrot-Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NextJs.md",
+                "file": "Parrot/Parrot-Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NextJs.md"
+                "file": "Parrot/Parrot-Canvas.canvas"
               }
             }
           },
@@ -176,14 +191,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4476a2d676530a9c",
+  "active": "2080d2efcd6e1699",
   "lastOpenFiles": [
-    "Lang Lang/React/ReactJs.md",
-    "NextJs.md",
-    "Lang Lang/React",
-    "Parrot-Canvas.canvas",
-    "Lang Lang/Rust.md",
+    "Masters",
+    "College",
+    "Untitled.md",
+    "Parrot/Parrot-Canvas.canvas",
+    "StartupReviews.md",
+    "TalkNotes.md",
     "README.md",
+    "Database/Drizzle.md",
+    "Database/SQLite.md",
+    "Database/SQL.md",
+    "Parrot/Custom_model.md",
+    "Parrot/file-storage-design-doc.md",
+    "Parrot/Screenshot 2024-09-05 at 3.47.24 PM.png",
+    "Parrot/kanban-design-doc.md",
+    "Parrot",
+    "Parrot/Screenshot 2024-09-11 at 1.26.46 PM.png",
+    "Database",
+    "2024-09-11.md",
+    "Lang Lang/React/ReactJs.md",
+    "Parrot/Screenshot 2024-09-06 at 11.20.58 AM.png",
+    "Parrot/Screenshot 2024-09-06 at 11.17.44 AM.png",
+    "Parrot/Screenshot 2024-09-06 at 10.07.18 AM.png",
+    "Parrot/Screenshot 2024-09-06 at 9.31.20 AM.png",
+    "Lang Lang/React/React DnD.md",
+    "Lang Lang/Rust.md",
+    "Lang Lang/React/NextJs.md",
+    "Parrot/Screenshot 2024-09-05 at 3.48.53 PM.png",
+    "Lang Lang/React",
     "Lang Lang",
     "Obsidian-Notes/README.md",
     "Obsidian-Notes",
